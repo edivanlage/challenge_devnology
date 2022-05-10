@@ -30,6 +30,6 @@ Após a execução a aplicação estará rodando em http://localhost:3000
 
 ### ROTAS
 
-- `[GET]/`: Retornar um Status: 200 e uma Mensagem "Desafio RPA Developer Devnology";
+- `[GET]/`: Retornar um Status: 200 e uma Mensagem "Desafio Devnology 2022";
 - `[GET]/computers/`: Lista todos os laptops cadastrados, informando sua marca, título, preço, descrição, avaliação e quantidades de reviews;
 - `[GET]/computers/:brand/`: Listar todos os registros da base de dados, retornando apenas os laptops da marca selecionada e ordenando-os de forma ascendente pelo preço.
