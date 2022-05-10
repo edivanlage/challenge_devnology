@@ -1,4 +1,4 @@
-# DESAFIO RPA DEVELOPER DEVNOLOGY
+# DESAFIO DEVNOLOGY
 
 O desafio consiste em criar um bot utilizando o puppeteer que realize as seguintes tarefas:
 
@@ -11,14 +11,18 @@ O desafio consiste em criar um bot utilizando o puppeteer que realize as seguint
 - Utilizar um banco de dados para armazenar os dados capturados;
 - Criar uma API REST para que o robô possa ser consumido por outros serviços;
 - Configurar o Docker no projeto;
+-  colocar a aplicação em uma plataforma onde possa ser consumida (Heroku)
 
 ## Inicialização
 
 Depois de clonar o repositório com o git clone, execute os comandos para executar o projeto:
 
+
 ```sh
 docker-compose up
 ```
+
+É importante que o Docker Desktop esteja instalado e configurado na sua máquina.
 
 Após a execução a aplicação estará rodando em http://localhost:3000
 
